@@ -2,7 +2,7 @@ import React from "react";
 
 const UserForm = ({ address, email, phone, handleChange, handleSave }) => {
   return (
-    <div className="flex flex-col items-center border border-slate-600 rounded-lg p-4 gap-5">
+    <div className="flex flex-col items-center border border-slate-600 rounded-lg p-6 gap-5">
       <input
         type="text"
         name="address"

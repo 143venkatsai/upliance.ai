@@ -2,7 +2,7 @@ import React from "react";
 
 const UserData = ({ name, id, users, handleChange, handleSave }) => {
   return (
-    <div className="flex flex-col items-center border border-slate-600 rounded-lg p-4 gap-5">
+    <div className="flex flex-col items-center border border-slate-600 rounded-lg p-6 gap-5">
       <div className="border w-full p-2 rounded overflow-auto max-h-10">
         <h1>
           <strong>User Data:</strong> {JSON.stringify(users, null, 2)}
